@@ -40,8 +40,8 @@ Local Storage keys
 - Vitals are saved under key `vitals-<username>`
 
 Sample credentials
-- alice
-- bob
+- lekan
+- taiwo
 
 Acceptance checklist
 - Add medication -> appears in list and persists after refresh
