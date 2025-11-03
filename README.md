@@ -39,6 +39,10 @@ Local Storage keys
 - Medications are saved under key `meds-<username>`
 - Vitals are saved under key `vitals-<username>`
 
+Sample credentials
+- alice
+- bob
+
 Acceptance checklist
 - Add medication -> appears in list and persists after refresh
 - Remove medication -> removed and persists
