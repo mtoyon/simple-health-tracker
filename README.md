@@ -39,6 +39,10 @@ Local Storage keys
 - Medications are saved under key `meds-<username>`
 - Vitals are saved under key `vitals-<username>`
 
+Sample credentials
+- lekan
+- taiwo
+
 Acceptance checklist
 - Add medication -> appears in list and persists after refresh
 - Remove medication -> removed and persists
@@ -46,11 +50,6 @@ Acceptance checklist
 - Data separated per username
 - Logout button clears session
 - Auto-logout after 5 minutes inactivity
-
-Next steps (recommended)
-- Add light form validation/feedback
-- Add tests (Jest/React Testing Library)
-- Add small UX improvements (confirmation before delete)
 
 ## GitHub Repository
 https://github.com/mtoyon/simple-health-tracker
