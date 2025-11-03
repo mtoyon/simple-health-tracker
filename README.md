@@ -51,4 +51,10 @@ Next steps (recommended)
 - Add light form validation/feedback
 - Add tests (Jest/React Testing Library)
 - Add small UX improvements (confirmation before delete)
-- Host repository on GitHub and include the repo link here
+
+## GitHub Repository
+https://github.com/mtoyon/simple-health-tracker
+
+## Live Demo
+You can set up GitHub Pages to host a live demo at:
+https://mtoyon.github.io/simple-health-tracker
