@@ -1,9 +1,8 @@
 # Dependencies
 node_modules/
 
-# Build outputs
+# Build outputs (keep assets/ and index.html for GitHub Pages)
 dist/
-build/
 
 # Environment variables
 .env
