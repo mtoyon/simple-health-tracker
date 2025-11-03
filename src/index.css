@@ -1,0 +1,31 @@
+:root{
+  --bg: #f7fafc;
+  --card: #ffffff;
+  --muted: #6b7280;
+  --accent: #0ea5a4;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family: Inter, Arial, sans-serif;
+  background:var(--bg);
+  color:#111827;
+}
+.container{
+  max-width:900px;
+  margin:32px auto;
+  padding:20px;
+}
+.card{
+  background:var(--card);
+  padding:16px;
+  border-radius:8px;
+  box-shadow:0 1px 3px rgba(0,0,0,0.06);
+  margin-bottom:16px;
+}
+.row{display:flex;gap:12px;align-items:center}
+.spacer{flex:1}
+button{background:var(--accent);color:white;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+input,select{padding:8px;border:1px solid #e5e7eb;border-radius:6px}
+.list-item{padding:10px;border-bottom:1px solid #f3f4f6;display:flex;align-items:center}
+.meta{color:var(--muted);font-size:12px}
