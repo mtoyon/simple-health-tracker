@@ -17,7 +17,7 @@ export default function Login({ onLogin }){
         <h2 style={{fontSize:'20px', marginBottom:'12px'}}>Sign in</h2>
         <p className="meta" style={{fontSize:'13px', marginBottom:'16px'}}>Enter a username to continue.</p>
         <form onSubmit={submit} style={{display:'grid',gap:10, marginTop:10}}>
-          <input placeholder="Username (e.g. alice)" value={username} onChange={e=>setUsername(e.target.value)} style={{padding:'8px', fontSize:'13px'}} />
+          <input placeholder="Username (e.g. lekan)" value={username} onChange={e=>setUsername(e.target.value)} style={{padding:'8px', fontSize:'13px'}} />
           <div style={{display:'flex',justifyContent:'center', marginTop:'4px'}}>
             <button type="submit" style={{padding:'8px 14px', fontSize:'13px'}}>Login</button>
           </div>
