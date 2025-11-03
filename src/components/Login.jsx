@@ -12,14 +12,14 @@ export default function Login({ onLogin }){
 
   return (
     <div className="container">
-      <h1 style={{textAlign:'center', fontSize:'28px', marginBottom:'24px', color:'#111827'}}>Simple Health Tracker</h1>
-      <div className="card" style={{maxWidth:450, margin:'40px auto', fontSize:'14px', textAlign:'center'}}>
-        <h2 style={{fontSize:'24px', marginBottom:'16px'}}>Sign in</h2>
-        <p className="meta" style={{fontSize:'14px', marginBottom:'20px'}}>Enter a username to continue.</p>
-        <form onSubmit={submit} style={{display:'grid',gap:12, marginTop:12}}>
-          <input placeholder="Username (e.g. alice)" value={username} onChange={e=>setUsername(e.target.value)} style={{padding:'10px', fontSize:'14px'}} />
-          <div style={{display:'flex',justifyContent:'center', marginTop:'6px'}}>
-            <button type="submit" style={{padding:'10px 16px', fontSize:'14px'}}>Login</button>
+      <h1 style={{textAlign:'center', fontSize:'24px', marginBottom:'20px', color:'#111827'}}>Simple Health Tracker</h1>
+      <div className="card" style={{maxWidth:350, margin:'30px auto', fontSize:'13px', textAlign:'center'}}>
+        <h2 style={{fontSize:'20px', marginBottom:'12px'}}>Sign in</h2>
+        <p className="meta" style={{fontSize:'13px', marginBottom:'16px'}}>Enter a username to continue.</p>
+        <form onSubmit={submit} style={{display:'grid',gap:10, marginTop:10}}>
+          <input placeholder="Username (e.g. alice)" value={username} onChange={e=>setUsername(e.target.value)} style={{padding:'8px', fontSize:'13px'}} />
+          <div style={{display:'flex',justifyContent:'center', marginTop:'4px'}}>
+            <button type="submit" style={{padding:'8px 14px', fontSize:'13px'}}>Login</button>
           </div>
         </form>
       </div>
