@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/simple-health-tracker/',
+  base: './',
   esbuild: {
     jsx: 'automatic',
     jsxDev: true
